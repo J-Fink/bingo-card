@@ -1,0 +1,40 @@
+.card {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 446px;
+}
+table {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+td {
+    border: 2px solid black;
+    height: 66.66px;
+    width: 66.66px;
+}
+.square:hover {
+    border: 1px solid gray;
+}
+#free-space:hover {
+    border: 2px solid red;
+}
+.options {
+    text-align: center;
+}
+button {
+    margin: auto;
+    text-align: center;
+
+}
+.selected {
+    background-color: rgba(255,0,0,.5);
+}
+.bingo-squares {
+    transition: all 0.4s;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+
+}
