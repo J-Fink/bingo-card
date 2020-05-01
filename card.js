@@ -152,9 +152,12 @@ function bingo(){
         // bingoSquares[i].classList.add("bingo");
        setTimeout(function(){
            bingoSquaresArray[i].classList.add("bingo-squares");
-            if (i == 5){for(let j = 0; j < bingoSquaresArray.length; j++){bingoSquaresArray[j].classList.remove("bingo-squares")};
+            if (i == 4){
+                for(let j = bingoSquaresArray.length - 1; j >= 0 ; j--){
+                    setTimeout(function(){bingoSquaresArray[j].classList.remove("bingo-squares");}, j*500);
+        };
         }}, i * 1000);
-           
+    
        //pause 1 sec
     //    bingoSquares[i].classList.remove("bingo");
        //pause 1 sec
