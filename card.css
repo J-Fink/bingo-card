@@ -23,11 +23,11 @@ td {
     box-shadow: inset 0px 0px 7px black;
 }
 .square:hover {
-    cursor: hover;
+    cursor: pointer;
     border: 1px solid gray;
 }
 #free-space:hover {
-    cursor: hover;
+    cursor: pointer;
     border: 2px solid red;
 }
 .options {
