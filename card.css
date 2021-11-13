@@ -1,5 +1,6 @@
 .card {
     margin: auto;
+    margin-top: 25vh;
     text-align: center;
     width: 400px;
     height: 446px;
@@ -8,6 +9,10 @@ table {
     margin: auto;
     width: 400px;
     height: 400px;
+    background: #001fff5c;
+    border-radius: 14px;
+    box-shadow: 0px 0px 48px 6px black;
+    padding: 12px;
 }
 td {
     border: 2px solid black;
